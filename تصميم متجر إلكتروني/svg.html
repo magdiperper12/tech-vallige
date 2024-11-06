@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nabd {
+            animation: animation_g .4s ease-in-out infinite forwards;
+        }
+
+        @keyframes animation_g {
+            50% {
+                r: 30
+            }
+        }
+
+        .sora {
+            animation: animation_f .6s ease-in-out infinite forwards;
+
+        }
+
+        @keyframes animation_f {
+            50% {
+                cx: 450
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <svg width="500" height="500" style="border-radius: 20px;background-color: #ccc;text-align:center">
+        <circle cx="50" cy="50" r="40" fill="red" class="nabd" />
+        <circle cx="50" cy="200" r="40" fill="red" class="sora" />
+
+    </svg>
+
+</body>
+
+</html>
